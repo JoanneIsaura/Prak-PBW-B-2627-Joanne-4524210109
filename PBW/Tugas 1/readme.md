@@ -2,8 +2,8 @@
   <h1>LAPORAN PRAKTIKUM <br>
   PRAK. PEMROGRAMAN BERBASIS WEB</h1>
 
-<b>Dosen:</b>
-<p>Ari Wibowo, S.Kom., M.Kom., C. Pro</p>
+<p><b>Dosen: <br>
+Ari Wibowo, S.Kom., M.Kom., C. Pro</p>
 </div>
 
 
