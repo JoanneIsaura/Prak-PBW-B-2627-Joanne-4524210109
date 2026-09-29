@@ -1,5 +1,5 @@
 <div text align = "center">
-  <h1 style ="margin bottom: 5px";>LAPORAN PRAKTIKUM</h1>
+  <h1 style ="margin bottom: 10px";>LAPORAN PRAKTIKUM</h1>
   <h1>PRAK. PEMROGRAMAN BERBASIS WEB</h1>
 
 <b>Dosen:</b>
