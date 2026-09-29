@@ -36,7 +36,6 @@ UNIVERSITAS PANCASILA<br>
     <th>File</th>
     <th>Sebelum</th>
     <th>Sesudah</th>
-    <th>Penjelasan</th>
   </tr>
 
   <tr>
