@@ -39,7 +39,7 @@ UNIVERSITAS PANCASILA<br>
   </tr>
 
   <tr>
-    <th>Kalkulator</th>
+    <th>Identitas</th>
     <th><img src="../Gambar/identitas.png" width="300">
         <br>
         <p></p></th>
@@ -59,7 +59,7 @@ Perbedaan kode sebelum dan sesudah terletak pada penambahan atribut, metode, dan
   </tr>
   
   <tr>
-    <th>Biodata</th>
+    <th>Hitung</th>
     <th><img src="../Gambar/hitung.png" width="300"></th>
     <th><img src="../Gambar/hitung1.png" width="300"></th>
   </tr>
