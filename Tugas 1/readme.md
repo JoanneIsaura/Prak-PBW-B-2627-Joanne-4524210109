@@ -36,6 +36,7 @@ UNIVERSITAS PANCASILA<br>
     <th>File</th>
     <th>Sebelum</th>
     <th>Sesudah</th>
+    <th>Penjelasan</th>
   </tr>
 
   <tr>
@@ -44,6 +45,7 @@ UNIVERSITAS PANCASILA<br>
         <br>
         <p></p></th>
     <th><img src="../Gambar/kalkulator1.png" width="300"></th>
+    <th>Gambar tersebut menunjukkan perbandingan tampilan program sebelum dan sesudah dilakukan modifikasi. Pada bagian Sebelum (Kode 2), program masih memiliki tampilan sederhana dengan HTML dasar dan hanya menyediakan pilihan operator +, -, dan *. Pada bagian Sesudah (Kode 1), program dikembangkan dengan menambahkan operator pembagian / dan modulus %, serta CSS untuk memperbaiki tampilan. Perubahan CSS terlihat dari penggunaan background, container, padding, tombol, input, dan tampilan hasil yang membuat program menjadi lebih rapi dan terstruktur.</th>
   </tr>
   
   <tr>
