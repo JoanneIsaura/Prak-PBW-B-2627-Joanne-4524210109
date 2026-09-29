@@ -65,7 +65,7 @@ Gambar tersebut menunjukkan perbandingan tampilan program sebelum dan sesudah di
   </tr>
 </table>
 
-<p><b>Penjelasan:</b><br>
+<p align="justify">&nbsp;&nbsp;&nbsp;&nbsp;><b>Penjelasan:</b><br>
 Pada kode sebelum, program menampilkan biodata mahasiswa menggunakan data yang sudah tersedia dan menghitung predikat berdasarkan nilai IPK. Pada kode sesudah, program dikembangkan dengan menambahkan email mahasiswa, status semester, serta perubahan predikat dari “Perlu Peningkatan” menjadi “Kurang Memuaskan”. Selain itu, ditambahkan CSS berupa container, background, pengaturan jarak, dan bagian status sehingga tampilan biodata menjadi lebih rapi dan terstruktur.</p>
 
 
