@@ -26,6 +26,7 @@ UNIVERSITAS PANCASILA<br>
 2026</h1>
 </div>
 
+<br>
 <DIV text align = "center">
   <h2>Tugas 1</h2>
 </DIV>
