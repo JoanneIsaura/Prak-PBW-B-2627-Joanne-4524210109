@@ -7,7 +7,6 @@ Ari Wibowo, S.Kom., M.Kom., C. Pro</p>
 
 <br>
 
-<img src="logo.png" widht: "150">
 </div>
 
 
