@@ -40,7 +40,9 @@ UNIVERSITAS PANCASILA<br>
 
   <tr>
     <th>Kalkulator</th>
-    <th><img src="../Gambar/kalkulator.png" width="300"></th>
+    <th><img src="../Gambar/kalkulator.png" width="300">
+        <br>
+        <p></p></th>
     <th><img src="../Gambar/kalkulator1.png" width="300"></th>
   </tr>
   
