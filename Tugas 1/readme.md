@@ -15,7 +15,7 @@ Ari Wibowo, S.Kom., M.Kom., C. Pro</p>
 <br>
 
 <p><b>Disusun Oleh:</b><br>
-Joanne Trixie Isaura / 4524210109</p>
+Joanne Trixie Isaura <br> 4524210109</p>
 </div>
 
 
