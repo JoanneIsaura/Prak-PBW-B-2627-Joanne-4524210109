@@ -37,6 +37,18 @@ UNIVERSITAS PANCASILA<br>
     <th>Sebelum</th>
     <th>Sesudah</th>
   </tr>
+
+  <tr>
+    <th>Kalkulator</th>
+    <th><img src="../Gambar/logo.png" width="300"></th>
+    <th><img src="../Gambar/logo.png" width="300"></th>
+  </tr>
+  
+  <tr>
+    <th>Biodata</th>
+    <th><img src="../Gambar/logo.png" width="300"></th>
+    <th><img src="../Gambar/logo.png" width="300"></th>
+  </tr>
 </table>
 
 
