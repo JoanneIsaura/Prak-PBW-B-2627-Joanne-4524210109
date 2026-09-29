@@ -67,16 +67,16 @@ class Mahasiswa implements Identitas
 }
 
 $mhs = new Mahasiswa(
-    '4524210126',
-    'Rihhadatul Aisy Septifani Zain',
+    '4524210109',
+    'Joanne Trixie Isaura',
     'Teknik Informatika',
-    3.82
+    3.73
 );
 
 echo '<h2>Identitas Mahasiswa</h2>';
 
-echo '<p>NIM: 4524210126</p>';
-echo '<p>Nama: Rihhadatul Aisy Septifani Zain</p>';
+echo '<p>NIM: 4524210109</p>';
+echo '<p>Nama: Joanne Trixie Isaura</p>';
 echo '<p>Prodi: Teknik Informatika</p>';
 echo '<p>IPK: ' . $mhs->getIpk() . '</p>';
 echo '<p>Status IPK: ' . $mhs->statusIpk() . '</p>';

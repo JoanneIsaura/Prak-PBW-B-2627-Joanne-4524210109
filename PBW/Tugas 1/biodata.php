@@ -11,25 +11,25 @@ function statusKelulusan(float $ipk): string
         return 'Memuaskan';
     }
 
-    return 'Perlu Peningkatan';
+    return 'Kurang Memuaskan';
 }
 
 $mahasiswa = [
-    'nim' => '4524210126',
-    'nama' => 'Rihhadatul Aisy Septifani Zain',
+    'nim' => '4524210109',
+    'nama' => 'Joanne Trixie Isaura',
     'prodi' => 'Teknik Informatika',
     'semester' => 5,
-    'ipk' => 3.82,
+    'ipk' => 3.73,
 
     // MODIFIKASI 1
-    'email' => 'mahasiswa@example.com'
+    'email' => 'mahasiswa@kampus.ac.id'
 ];
 
 // MODIFIKASI 2
 if ($mahasiswa['semester'] >= 7) {
     $statusSemester = 'Semester Akhir';
 } else {
-    $statusSemester = 'Semester Berjalan';
+    $statusSemester = 'Mahasiswa Aktif';
 }
 ?>
 

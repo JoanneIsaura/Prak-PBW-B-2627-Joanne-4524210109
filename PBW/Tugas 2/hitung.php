@@ -72,9 +72,9 @@ class ProdukPajak extends Produk
 }
 
 $daftar = [
-    new Produk('Keyboard', 250000),
-    new ProdukDiskon('Mouse', 150000, 10),
-    new ProdukPajak('Monitor', 2000000, 11)
+    new Produk('Baju', 500000),
+    new ProdukDiskon('Celana', 100000, 10),
+    new ProdukPajak('Jaket', 200000, 5)
 ];
 
 echo '<h2>Daftar Produk</h2>';
