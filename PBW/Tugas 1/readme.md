@@ -1,10 +1,8 @@
 <div text align = "center">
-  <h1>LAPORAN PRAKTIKUM</h1>
+  <h1>LAPORAN PRAKTIKUM</h1> <br>
   <h1>PRAK. PEMROGRAMAN BERBASIS WEB</h1>
 
-<br><br>
-
-<b>Dosen:</b>
+<b>Dosen:</b> <br>
 <p>Ari Wibowo, S.Kom., M.Kom., C. Pro</p>
 </div>
 
