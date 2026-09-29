@@ -40,14 +40,14 @@ UNIVERSITAS PANCASILA<br>
 
   <tr>
     <th>Kalkulator</th>
-    <th><img src="../Gambar/logo.png" width="300"></th>
-    <th><img src="../Gambar/logo.png" width="300"></th>
+    <th><img src="../Gambar/kalkulator.png" width="300"></th>
+    <th><img src="../Gambar/kalkulator1.png" width="300"></th>
   </tr>
   
   <tr>
     <th>Biodata</th>
-    <th><img src="../Gambar/logo.png" width="300"></th>
-    <th><img src="../Gambar/logo.png" width="300"></th>
+    <th><img src="../Gambar/biodata.png" width="300"></th>
+    <th><img src="../Gambar/biodata1.png" width="300"></th>
   </tr>
 </table>
 
