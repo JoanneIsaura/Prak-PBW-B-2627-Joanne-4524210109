@@ -16,6 +16,13 @@ Ari Wibowo, S.Kom., M.Kom., C. Pro</p>
 
 <p><b>Disusun Oleh:</b><br>
 Joanne Trixie Isaura <br> 4524210109</p>
+
+<br>
+<br>
+
+<h1>TEKNIK INFORMATIKA<br>
+UNIVERSITAS PANCASILA<br>
+2026</h1>
 </div>
 
 
