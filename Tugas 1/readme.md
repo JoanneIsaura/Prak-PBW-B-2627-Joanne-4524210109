@@ -6,8 +6,16 @@
 Ari Wibowo, S.Kom., M.Kom., C. Pro</p>
 
 <br>
+<br>
 
 <img src="../Gambar/logo.png" width="300">
+
+<br>
+<br>
+<br>
+
+<p><b>Disusun Oleh:</b><br>
+Joanne Trixie Isaura / 4524210109</p>
 </div>
 
 
