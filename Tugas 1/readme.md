@@ -31,5 +31,21 @@ UNIVERSITAS PANCASILA<br>
   <h2>Tugas 1</h2>
 </DIV>
 
+<table>
+  <tr>
+        <th>Kolom 1</th>
+        <th>Kolom 2</th>
+    </tr>
+
+    <tr>
+        <td>Data 1</td>
+        <td>Data 2</td>
+    </tr>
+
+    <tr>
+        <td>Data 3</td>
+        <td>Data 4</td>
+    </tr>
+</table>
 
 
