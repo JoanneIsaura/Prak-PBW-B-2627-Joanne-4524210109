@@ -47,7 +47,7 @@ UNIVERSITAS PANCASILA<br>
   </tr>
 </table>
 
-<p align="justify">&nbsp;&nbsp;&nbsp;&nbsp;";><b>Penjelasan</b><br>
+<p align="justify">&nbsp;&nbsp;&nbsp;&nbsp;<b>Penjelasan</b><br>
 Gambar tersebut menunjukkan perbandingan tampilan program sebelum dan sesudah dilakukan modifikasi. Tampilan program sebelum, masih memiliki tampilan sederhana dengan HTML dasar dan hanya menyediakan pilihan operator +, -, dan *. Pada program sesudah, program dikembangkan dengan menambahkan operator pembagian / dan modulus %, serta CSS untuk memperbaiki tampilan. Perubahan CSS terlihat dari penggunaan background, container, padding, tombol, input, dan tampilan hasil yang membuat program menjadi lebih rapi dan terstruktur.</p>
 
 <br>
