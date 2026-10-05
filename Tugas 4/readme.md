@@ -48,7 +48,7 @@ UNIVERSITAS PANCASILA<br>
 </table>
 
 <p align="justify";><b>Penjelasan:</b><br>
-</p>
+Pada kode sebelum, program hanya melakukan proses INSERT untuk memasukkan data mahasiswa dan SELECT untuk menampilkan mahasiswa dengan IPK minimal 3.50. Pada kode sesudah, program mengalami sedikit modifikasi dengan menambahkan proses DELETE data lama berdasarkan NIM sebelum INSERT agar data tidak mengalami duplikasi ketika program dijalankan kembali, serta kondisi pada SELECT ditambahkan prodi = 'Teknik Informatika' sehingga data yang ditampilkan lebih spesifik. Selain itu, hasil SELECT juga diberikan garis pemisah agar output lebih mudah dibaca. Perubahan ini tetap mempertahankan struktur utama kode sebelumnya, tetapi menambahkan query dan kondisi baru.</p>
 
 <br>
 <table>
