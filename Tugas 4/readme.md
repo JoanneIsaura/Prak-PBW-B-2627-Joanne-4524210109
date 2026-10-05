@@ -66,4 +66,4 @@ Pada kode sebelum, program hanya melakukan proses INSERT untuk memasukkan data m
 </table>
 
 <p align="justify";><b>Penjelasan:</b><br>
-</p>
+Pada kode sebelum, bagian pertama hanya melakukan UPDATE IPK, bagian kedua melakukan rekap jumlah mahasiswa dan rata-rata IPK berdasarkan prodi, bagian ketiga melakukan verifikasi data berdasarkan NIM, dan bagian keempat melakukan DELETE data mahasiswa. Pada kode sesudah, bagian UPDATE dimodifikasi dengan mengubah IPK sekaligus email, bagian rekap ditambahkan tampilan prodi dan jumlah mahasiswa, bagian verifikasi ditambahkan informasi prodi, angkatan, dan email, sedangkan bagian DELETE ditambahkan informasi mengenai jumlah data yang berhasil dihapus menggunakan mysqli_affected_rows(). Dengan demikian, setiap bagian dari kode mengalami penambahan fungsi tanpa mengubah alur utama program.</p>
