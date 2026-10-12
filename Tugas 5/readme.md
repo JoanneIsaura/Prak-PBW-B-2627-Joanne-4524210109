@@ -47,7 +47,7 @@ UNIVERSITAS PANCASILA<br>
   </tr>
 </table>
 
-<p align="justify";><b>Penjelasan</b><br>
+<p align="justify";><b>Penjelasan:</b><br>
 </p>
 
 <br>
