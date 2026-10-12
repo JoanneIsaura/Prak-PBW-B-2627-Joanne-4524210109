@@ -107,7 +107,8 @@ Pada code sebelum, data mahasiswa langsung diambil dari form dan dimasukkan ke d
   
   <tr>
     <th>Simpan</th>
-    <th><img src="../Gambar/simpan.png" width="300"></th>
-    <th><img src="../Gambar/simpan2.png" width="300"></th>
+  </tr>
+  <tr>
+    <th>Simpan</th>
   </tr>
 </table>
