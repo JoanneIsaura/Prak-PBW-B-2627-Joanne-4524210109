@@ -63,8 +63,9 @@ Gambar pertama menunjukkan bahwa program berhasil melakukan koneksi ke server My
 </table>
 
 <p align="justify";><b>Penjelasan:</b><br>
-</p>
+Gambar kedua menunjukkan bahwa program berhasil mengambil dan menampilkan data mahasiswa yang tersimpan di dalam database MySQL. Data yang ditampilkan berupa NIM dan nama mahasiswa, yang menunjukkan bahwa proses pengambilan data dari database telah berhasil dilakukan. Dengan demikian, program PHP tidak hanya berhasil terhubung ke server MySQL, tetapi juga dapat membaca dan menampilkan data sesuai dengan isi tabel dalam database.</p>
 
+<br>
 <table>
   <tr>
     <th>File</th>
