@@ -81,7 +81,7 @@ Gambar kedua menunjukkan bahwa program berhasil mengambil dan menampilkan data m
 </table>
 
 <p align="justify";><b>Penjelasan:</b><br>
-</p>
+Pada code sebelum, form digunakan untuk memasukkan data mahasiswa berupa NIM, nama, email, program studi, angkatan, dan IPK dengan tampilan yang masih sederhana. Pada code sesudah, form dimodifikasi dengan menambahkan CSS agar tampilannya lebih menarik dan rapi, serta menambahkan validasi input seperti NIM harus berupa angka, nama maksimal 100 karakter, program studi dipilih melalui dropdown, angkatan dibatasi sesuai tahun yang tersedia, dan IPK harus berada di antara 0 sampai 4. Selain itu, teks tombol diubah menjadi “Simpan Data” agar lebih jelas bagi pengguna.</p>
 
 <br>
 <table>
