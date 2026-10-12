@@ -111,22 +111,22 @@ Pada code sebelum, data mahasiswa langsung diambil dari form dan dimasukkan ke d
   </tr>
   
   <tr>
-    <td>1. Koneksi ke database (koneksi.php) <br>
-      <p align="justify";>Kode mysqli_connect() digunakan untuk menghubungkan PHP dengan database MySQL bernama akademik. Jika koneksi gagal, program akan menampilkan pesan kesalahan sehingga proses tidak dilanjutkan.</p></td>
+    <td>2. Menampilkan data mahasiswa (data.php)<br>
+      <p align="justify";>Kode mysqli_query() menjalankan perintah SQL SELECT untuk mengambil data dari tabel mahasiswa. Selanjutnya, mysqli_fetch_assoc() mengambil data setiap baris agar NIM dan nama mahasiswa dapat ditampilkan.</p></td>
   </tr>
 
   <tr>
-    <td>1. Koneksi ke database (koneksi.php) <br>
-      <p align="justify";>Kode mysqli_connect() digunakan untuk menghubungkan PHP dengan database MySQL bernama akademik. Jika koneksi gagal, program akan menampilkan pesan kesalahan sehingga proses tidak dilanjutkan.</p></td>
+    <td>3. Formulir input (form.php)<br>
+      <p align="justify";>Tag form dengan atribut action="simpan.php" dan method="post" digunakan untuk mengirim data mahasiswa ke file simpan.php. Atribut required, min, max, dan pattern membantu membatasi input agar data yang dimasukkan sesuai ketentuan.</p></td>
   </tr>
 
   <tr>
-    <td>1. Koneksi ke database (koneksi.php) <br>
-      <p align="justify";>Kode mysqli_connect() digunakan untuk menghubungkan PHP dengan database MySQL bernama akademik. Jika koneksi gagal, program akan menampilkan pesan kesalahan sehingga proses tidak dilanjutkan.</p></td>
+    <td>4. Validasi data (simpan.php)<br>
+      <p align="justify";>Validasi digunakan untuk memeriksa apakah data sudah diisi dengan benar sebelum disimpan. Contohnya, NIM harus berupa angka, email harus memiliki format yang valid, dan IPK harus berada di antara 0 sampai 4. Validasi di server tetap diperlukan meskipun formulir sudah memiliki pembatasan input.</p></td>
   </tr>
 
   <tr>
-    <td>1. Koneksi ke database (koneksi.php) <br>
-      <p align="justify";>Kode mysqli_connect() digunakan untuk menghubungkan PHP dengan database MySQL bernama akademik. Jika koneksi gagal, program akan menampilkan pesan kesalahan sehingga proses tidak dilanjutkan.</p></td>
+    <td>Menyimpan data dengan prepared statement (simpan.php)<br>
+      <p align="justify";>mysqli_prepare() dan mysqli_stmt_bind_param() digunakan untuk menyiapkan query serta mengikat nilai input ke parameter SQL. Cara ini membantu mencegah SQL injection, sedangkan mysqli_stmt_execute() menjalankan query untuk menyimpan data mahasiswa ke database.</p></td>
   </tr>
 </table>
