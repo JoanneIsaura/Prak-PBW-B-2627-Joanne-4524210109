@@ -27,10 +27,11 @@ UNIVERSITAS PANCASILA<br>
 </div>
 
 <br>
+</DIV>
 <DIV text align = "center">
   <h2>Tugas 5</h2>
-</DIV>
 
+<br>
 <table>
   <tr>
     <th>File</th>
