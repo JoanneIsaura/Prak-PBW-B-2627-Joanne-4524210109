@@ -47,7 +47,7 @@ UNIVERSITAS PANCASILA<br>
 </table>
 
 <p align="justify";><b>Penjelasan:</b><br>
-</p>
+Gambar pertama menunjukkan bahwa program berhasil melakukan koneksi ke server MySQL. Hal ini ditandai dengan munculnya pesan “Koneksi ke server MySQL berhasil!”. Pesan tersebut menunjukkan bahwa konfigurasi koneksi antara program PHP dan database MySQL telah berjalan dengan baik sehingga program dapat terhubung ke database yang digunakan.</p>
 
 <table>
   <tr>
