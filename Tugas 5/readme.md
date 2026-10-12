@@ -126,7 +126,7 @@ Pada code sebelum, data mahasiswa langsung diambil dari form dan dimasukkan ke d
   </tr>
 
   <tr>
-    <td>Menyimpan data dengan prepared statement (simpan.php)<br>
+    <td>5. Menyimpan data dengan prepared statement (simpan.php)<br>
       <p align="justify";>mysqli_prepare() dan mysqli_stmt_bind_param() digunakan untuk menyiapkan query serta mengikat nilai input ke parameter SQL. Cara ini membantu mencegah SQL injection, sedangkan mysqli_stmt_execute() menjalankan query untuk menyimpan data mahasiswa ke database.</p></td>
   </tr>
 </table>
