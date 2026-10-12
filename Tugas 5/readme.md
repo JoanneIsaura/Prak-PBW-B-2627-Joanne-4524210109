@@ -105,9 +105,9 @@ Pada code sebelum, data mahasiswa langsung diambil dari form dan dimasukkan ke d
 <table>
   <p align="justify";>Penjelasan singkat untuk lima bagian kode yang menurut saya paling penting</p>
   
-  <tr>
-    <th>1. Koneksi ke database (koneksi.php) <br><p align="justify";>Kode mysqli_connect() digunakan untuk menghubungkan PHP dengan database MySQL bernama akademik. Jika koneksi gagal, program akan menampilkan pesan kesalahan sehingga proses tidak dilanjutkan.</p></th>
+  <tr>1. Koneksi ke database (koneksi.php) <br><p align="justify";>Kode mysqli_connect() digunakan untuk menghubungkan PHP dengan database MySQL bernama akademik. Jika koneksi gagal, program akan menampilkan pesan kesalahan sehingga proses tidak dilanjutkan.</p></th>
   </tr>
+  
   <tr>
     <th>Simpan</th>
   </tr>
