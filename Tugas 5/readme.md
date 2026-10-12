@@ -34,6 +34,37 @@ UNIVERSITAS PANCASILA<br>
 <table>
   <tr>
     <th>File</th>
+    <th>Gambar</th>
+  </tr>
+
+  <tr>
+    <th>Koneksi</th>
+    <th><img src="../Gambar/koneksi.png" width="300">
+        <br>
+  </tr>
+</table>
+
+<p align="justify";><b>Penjelasan:</b><br>
+</p>
+
+<table>
+  <tr>
+    <th>File</th>
+    <th>Gambar</th>
+  </tr>
+
+  <tr>
+    <th>Data</th>
+    <th><img src="../Gambar/data.png" width="300">
+  </tr>
+</table>
+
+<p align="justify";><b>Penjelasan:</b><br>
+</p>
+
+<table>
+  <tr>
+    <th>File</th>
     <th>Sebelum</th>
     <th>Sesudah</th>
   </tr>
@@ -41,8 +72,6 @@ UNIVERSITAS PANCASILA<br>
   <tr>
     <th>Form</th>
     <th><img src="../Gambar/form.png" width="300">
-        <br>
-        <p></p></th>
     <th><img src="../Gambar/form2.png" width="300"></th>
   </tr>
 </table>
