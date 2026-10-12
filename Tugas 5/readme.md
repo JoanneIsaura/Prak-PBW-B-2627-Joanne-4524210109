@@ -103,7 +103,7 @@ Pada code sebelum, data mahasiswa langsung diambil dari form dan dimasukkan ke d
 
 <br>
 <table>
-  <p>penjelasan singkat untuk lima bagian kode (dari semua file) yang
+  <p align="justify";>penjelasan singkat untuk lima bagian kode (dari semua file) yang
 menurut saya paling penting</p>
   
   <tr>
