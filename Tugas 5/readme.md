@@ -100,3 +100,15 @@ Pada code sebelum, form digunakan untuk memasukkan data mahasiswa berupa NIM, na
 
 <p align="justify";><b>Penjelasan:</b><br>
 Pada code sebelum, data mahasiswa langsung diambil dari form dan dimasukkan ke database menggunakan query INSERT, tanpa pemeriksaan data yang lebih lanjut. Pada code sesudah, ditambahkan validasi untuk memastikan form dikirim melalui metode POST, semua data wajib diisi, NIM harus berupa angka, email harus valid, angkatan harus sesuai, dan IPK berada di antara 0 sampai 4. Selain itu, query diubah menggunakan prepared statement agar penyimpanan data lebih aman, serta ditambahkan try-catch untuk menangani kesalahan, seperti NIM atau email yang sudah terdaftar.</p>
+
+<br>
+<table>
+  <p>penjelasan singkat untuk lima bagian kode (dari semua file) yang
+menurut saya paling penting</p>
+  
+  <tr>
+    <th>Simpan</th>
+    <th><img src="../Gambar/simpan.png" width="300"></th>
+    <th><img src="../Gambar/simpan2.png" width="300"></th>
+  </tr>
+</table>
