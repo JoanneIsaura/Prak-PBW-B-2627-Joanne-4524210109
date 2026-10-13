@@ -119,7 +119,7 @@ Pada kode sebelum modifikasi, terdapat kesalahan penulisan nama file koneksi, ya
 </table>
 
 <p align="justify";><b>Penjelasan:</b><br>
-</p>
+Pada kode sebelum modifikasi, data mahasiswa dicari berdasarkan NIM menggunakan query SQL yang langsung menggabungkan nilai dari URL. Kode tersebut juga langsung menampilkan data dari database pada judul dan atribut value form tanpa pengamanan output. Pada kode sesudah modifikasi, pencarian data menggunakan prepared statement agar NIM diproses sebagai parameter, ditambahkan pemeriksaan jika NIM kosong atau data tidak ditemukan, serta digunakan fungsi htmlspecialchars() melalui fungsi bantuan aman() untuk mengamankan data yang ditampilkan. Input NIM juga dibuat readonly agar tidak dapat diubah melalui form. Selain itu, validasi panjang nama, format email, rentang angkatan, dan nilai IPK ditambahkan agar proses pengubahan data lebih terkontrol.</p>
 
 <br>
 <table>
@@ -138,7 +138,7 @@ Pada kode sebelum modifikasi, terdapat kesalahan penulisan nama file koneksi, ya
 </table>
 
 <p align="justify";><b>Penjelasan:</b><br>
-</p>
+Pada kode sebelum modifikasi, terdapat kesalahan penulisan fungsi mysqlli_query() yang seharusnya menggunakan fungsi MySQLi yang benar. Query penghapusan juga langsung menggabungkan NIM dari URL ke dalam perintah SQL dan hanya memeriksa apakah query berhasil dijalankan. Pada kode sesudah modifikasi, proses penghapusan menggunakan mysqli_prepare() dan mysqli_stmt_bind_param() untuk memproses NIM sebagai parameter. Ditambahkan juga pemeriksaan apabila NIM tidak tersedia serta pengecekan jumlah baris yang terhapus menggunakan mysqli_stmt_affected_rows(), sehingga program dapat membedakan antara data yang berhasil dihapus dan data yang tidak ditemukan. Dengan perubahan tersebut, proses penghapusan menjadi lebih aman dan memberikan informasi yang lebih jelas kepada pengguna.</p>
 
 <br>
 <table>
@@ -156,7 +156,7 @@ Pada kode sebelum modifikasi, terdapat kesalahan penulisan nama file koneksi, ya
 </table>
 
 <p align="justify";><b>Penjelasan:</b><br>
-</p>
+Pada kode sebelum modifikasi, proses penyimpanan data memiliki kesalahan pada penggunaan variabel $server yang seharusnya $_SERVER dan fungsi mysql_query() yang tidak sesuai dengan koneksi MySQLi. Kode sebelumnya juga langsung menggabungkan input pengguna ke dalam query SQL tanpa validasi yang memadai. Pada kode sesudah modifikasi, diperbaiki pemeriksaan metode pengiriman form, ditambahkan validasi untuk memastikan kolom terisi, email valid, angkatan berada dalam rentang yang ditentukan, dan IPK antara 0 sampai 4. Proses penyimpanan juga menggunakan mysqli_prepare() dan parameter agar input tidak langsung digabungkan ke query SQL. Dengan demikian, proses penyimpanan menjadi lebih terstruktur dan lebih aman.</p>
 
 <br>
 <table>
