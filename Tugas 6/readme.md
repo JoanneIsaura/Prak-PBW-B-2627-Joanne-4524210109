@@ -65,7 +65,7 @@ Gambar pertama menunjukkan bahwa program berhasil melakukan koneksi ke server My
 </table>
 
 <p align="justify";><b>Penjelasan:</b><br>
-Pada kode sebelum modifikasi, index.php hanya menampilkan data mahasiswa dari database berupa NIM, nama, email, program studi, angkatan, IPK, serta aksi edit dan hapus. Pada kode sesudah modifikasi, ditambahkan kolom Keterangan IPK yang menampilkan status akademik berdasarkan nilai IPK, yaitu Sangat Memuaskan, Memuaskan, atau Perlu Peningkatan. Selain itu, ditambahkan kondisi untuk menampilkan pesan apabila belum ada data mahasiswa dan fungsi htmlspecialchars() untuk membantu mencegah karakter khusus pada data ditampilkan sebagai kode HTML. Parameter NIM pada tautan edit dan hapus juga menggunakan urlencode() agar lebih aman saat dimasukkan ke URL.</p>
+Pada kode sebelum modifikasi, form tambah mahasiswa hanya menggunakan atribut required untuk memastikan setiap kolom diisi, tetapi belum memiliki batasan khusus untuk panjang input, nilai IPK, dan angkatan. Pada kode sesudah modifikasi, ditambahkan validasi melalui atribut HTML, seperti maxlength untuk membatasi panjang karakter, minlength untuk menentukan panjang minimal nama, min dan max untuk membatasi nilai IPK antara 0 sampai 4 serta angkatan antara 2000 sampai 2099. Tipe input angkatan juga diubah dari text menjadi number agar pengguna memasukkan angka. Selain itu, ditambahkan tautan kembali ke halaman utama agar pengguna lebih mudah melakukan navigasi.</p>
 
 <br>
 <table>
@@ -83,7 +83,7 @@ Pada kode sebelum modifikasi, index.php hanya menampilkan data mahasiswa dari da
 </table>
 
 <p align="justify";><b>Penjelasan:</b><br>
-</p>
+Pada kode sebelum modifikasi, index.php hanya menampilkan data mahasiswa dari database berupa NIM, nama, email, program studi, angkatan, IPK, serta aksi edit dan hapus. Pada kode sesudah modifikasi, ditambahkan kolom Keterangan IPK yang menampilkan status akademik berdasarkan nilai IPK, yaitu Sangat Memuaskan, Memuaskan, atau Perlu Peningkatan. Selain itu, ditambahkan kondisi untuk menampilkan pesan apabila belum ada data mahasiswa dan fungsi htmlspecialchars() untuk membantu mencegah karakter khusus pada data ditampilkan sebagai kode HTML. Parameter NIM pada tautan edit dan hapus juga menggunakan urlencode() agar lebih aman saat dimasukkan ke URL.</p>
 
 <br>
 <table>
