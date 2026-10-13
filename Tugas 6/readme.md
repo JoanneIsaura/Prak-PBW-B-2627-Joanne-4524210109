@@ -130,9 +130,10 @@ Gambar pertama menunjukkan bahwa program berhasil melakukan koneksi ke server My
   </tr>
 
   <tr>
-    <th>Form</th>
-    <th><img src="../Gambar/form.png" width="300">
-    <th><img src="../Gambar/form2.png" width="300"></th>
+    <th>delete</th>
+    <th><img src="../Gambar/delete.png" width="300">
+    <th><img src="../Gambar/delete1.png" width="300"><br>
+    <img src="../Gambar/delete2.png" width="300"></th>
   </tr>
 </table>
 
