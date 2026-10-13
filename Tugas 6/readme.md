@@ -163,27 +163,27 @@ Pada kode sebelum modifikasi, proses penyimpanan data memiliki kesalahan pada pe
   <p align="justify";><b>Penjelasan singkat untuk lima bagian kode yang menurut saya paling penting:</b></p>
   
   <tr>
-    <td><br>
-      <p align="justify";></p></td>
-  </tr>
-  
-  <tr>
     <td>1. Menghubungkan program dengan database<br>
       <p align="justify";>digunakan untuk memasukkan file koneksi database ke dalam program. Dengan adanya koneksi tersebut, PHP dapat menjalankan perintah untuk mengambil, menyimpan, mengubah, dan menghapus data mahasiswa.</p></td>
   </tr>
-
+  
   <tr>
-    <td><br>
-      <p align="justify";></p></td>
+    <td>2. Mengambil data dari tabel mahasiswa<br>
+      <p align="justify";>Kode ini menjalankan perintah SQL SELECT untuk mengambil seluruh data dari tabel mahasiswa. Data tersebut kemudian ditampilkan pada halaman utama menggunakan perulangan.</p></td>
   </tr>
 
   <tr>
-    <td><br>
-      <p align="justify";></p></td>
+    <td>3. Validasi input IPK<br>
+      <p align="justify";>Kode ini memastikan bahwa IPK yang dimasukkan berupa angka dan berada pada rentang 0 sampai 4. Validasi dilakukan di sisi server agar data yang tidak sesuai tidak langsung disimpan ke database.</p></td>
   </tr>
 
   <tr>
-    <td><br>
-      <p align="justify";></p></td>
+    <td>4. Menyimpan data menggunakan prepared statement<br>
+      <p align="justify";>Kode ini menyiapkan perintah SQL untuk menyimpan data mahasiswa dengan parameter. Penggunaan prepared statement membantu mencegah SQL injection karena input pengguna diproses sebagai nilai parameter, bukan digabungkan langsung ke perintah SQL.</p></td>
+  </tr>
+
+  <tr>
+    <td>5. Menentukan keterangan IPK dengan percabangan<br>
+      <p align="justify";>Kode ini menggunakan percabangan if, elseif, dan else untuk menentukan keterangan akademik berdasarkan IPK mahasiswa. Fitur ini membuat halaman daftar mahasiswa lebih informatif karena keterangan akademik dapat ditampilkan secara otomatis.</p></td>
   </tr>
 </table>
