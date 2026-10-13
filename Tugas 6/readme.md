@@ -114,7 +114,7 @@ Gambar pertama menunjukkan bahwa program berhasil melakukan koneksi ke server My
   <tr>
     <th>edit</th>
     <th><img src="../Gambar/edit.png" width="300"></th>
-    <th><img src="../Gambar/index2.png" width="300"></th>
+    <th><img src="../Gambar/edit2.png" width="300"></th>
   </tr>
 </table>
 
