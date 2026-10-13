@@ -149,9 +149,9 @@ Gambar pertama menunjukkan bahwa program berhasil melakukan koneksi ke server My
   </tr>
   
   <tr>
-    <th>Simpan</th>
-    <th><img src="../Gambar/simpan.png" width="300"></th>
-    <th><img src="../Gambar/simpan2.png" width="300"></th>
+    <th>store</th>
+    <th><img src="../Gambar/store.png" width="300"></th>
+    <th><img src="../Gambar/index2.png" width="300"></th>
   </tr>
 </table>
 
