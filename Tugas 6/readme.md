@@ -101,7 +101,7 @@ Pada kode sebelum modifikasi, index.php hanya menampilkan data mahasiswa dari da
 </table>
 
 <p align="justify";><b>Penjelasan:</b><br>
-</p>
+Pada kode sebelum modifikasi, terdapat kesalahan penulisan nama file koneksi, yaitu koneksi.p0hp, serta kondisi if (query) yang seharusnya memeriksa variabel $query. Query pembaruan juga langsung menggabungkan input pengguna ke perintah SQL dan belum memiliki validasi data. Pada kode sesudah modifikasi, nama file koneksi dan kondisi pemeriksaan diperbaiki, kemudian ditambahkan validasi untuk memastikan semua kolom terisi, email valid, angkatan sesuai rentang yang ditentukan, dan IPK berada antara 0 sampai 4. Query pembaruan menggunakan prepared statement sehingga input diproses sebagai parameter. Kode juga menampilkan pesan ketika pembaruan berhasil atau gagal, lalu mengarahkan pengguna kembali ke halaman utama setelah proses selesai.</p>
 
 <br>
 <table>
