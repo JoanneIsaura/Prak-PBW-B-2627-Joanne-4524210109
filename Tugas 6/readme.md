@@ -168,8 +168,8 @@ Pada kode sebelum modifikasi, proses penyimpanan data memiliki kesalahan pada pe
   </tr>
   
   <tr>
-    <td><br>
-      <p align="justify";></p></td>
+    <td>1. Menghubungkan program dengan database<br>
+      <p align="justify";>digunakan untuk memasukkan file koneksi database ke dalam program. Dengan adanya koneksi tersebut, PHP dapat menjalankan perintah untuk mengambil, menyimpan, mengubah, dan menghapus data mahasiswa.</p></td>
   </tr>
 
   <tr>
