@@ -1,7 +1,8 @@
 <?php
 include "koneksi.php";
 
-if ($server["REQUEST_METHOD"] == "POST"){
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
+
     $nim = $_POST['nim'];
     $nama = $_POST['nama'];
     $email = $_POST['email'];
@@ -9,9 +10,11 @@ if ($server["REQUEST_METHOD"] == "POST"){
     $angkatan = $_POST['angkatan'];
     $ipk = $_POST['ipk'];
 
-    $query = mysql_query(
+    $query = mysqli_query(
         $koneksi,
-        "INSERT INTO mahasiswa (nim, nama, email, prodi, angkatan, ipk) VALUES
+        "INSERT INTO mahasiswa
+        (nim, nama, email, prodi, angkatan, ipk)
+        VALUES
         ('$nim', '$nama', '$email', '$prodi', '$angkatan', '$ipk')"
     );
 

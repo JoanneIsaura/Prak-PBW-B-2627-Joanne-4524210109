@@ -10,7 +10,6 @@
     Email:
     <input type="email" name="email" required>
     <br><br>
-
     Prodi:
     <input type="text" name="prodi" required>
     <br><br>

@@ -10,11 +10,13 @@ $ipk = $_POST['ipk'];
 
 $query = mysqli_query(
     $koneksi,
-    "INSERT INTO mahasiswa (nim, nama, email, prodi, angkatan, ipk) VALUES
+    "INSERT INTO mahasiswa
+    (nim, nama, email, prodi, angkatan, ipk)
+    VALUES
     ('$nim', '$nama', '$email', '$prodi', '$angkatan', '$ipk')"
 );
 
-if ($query){
+if ($query) {
     echo "Data berhasil disimpan";
 } else {
     echo "Data gagal disimpan";
