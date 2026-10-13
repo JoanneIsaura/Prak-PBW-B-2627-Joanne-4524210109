@@ -65,7 +65,7 @@ Gambar pertama menunjukkan bahwa program berhasil melakukan koneksi ke server My
 </table>
 
 <p align="justify";><b>Penjelasan:</b><br>
-</p>
+Pada kode sebelum modifikasi, index.php hanya menampilkan data mahasiswa dari database berupa NIM, nama, email, program studi, angkatan, IPK, serta aksi edit dan hapus. Pada kode sesudah modifikasi, ditambahkan kolom Keterangan IPK yang menampilkan status akademik berdasarkan nilai IPK, yaitu Sangat Memuaskan, Memuaskan, atau Perlu Peningkatan. Selain itu, ditambahkan kondisi untuk menampilkan pesan apabila belum ada data mahasiswa dan fungsi htmlspecialchars() untuk membantu mencegah karakter khusus pada data ditampilkan sebagai kode HTML. Parameter NIM pada tautan edit dan hapus juga menggunakan urlencode() agar lebih aman saat dimasukkan ke URL.</p>
 
 <br>
 <table>
