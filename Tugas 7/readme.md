@@ -28,7 +28,7 @@ UNIVERSITAS PANCASILA<br>
 
 <br>
 <DIV text align = "center">
-  <h2>Tugas 2</h2>
+  <h2>Tugas 7</h2>
 </DIV>
 
 <table align="center";>
