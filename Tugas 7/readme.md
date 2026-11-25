@@ -58,6 +58,7 @@ UNIVERSITAS PANCASILA<br>
 <p align="justify";><b>Penjelasan:</b><br>
 </p>
 
+<br>
 <table align="center";>
   <tr>
     <th>edit.php</th>
@@ -71,6 +72,7 @@ UNIVERSITAS PANCASILA<br>
 <p align="justify";><b>Penjelasan:</b><br>
 </p>
 
+<br>
 <table align="center";>
   <tr>
     <th>Database</th>
