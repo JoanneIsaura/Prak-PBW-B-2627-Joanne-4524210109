@@ -42,6 +42,7 @@ UNIVERSITAS PANCASILA<br>
 </table>
 
 <p align="justify";><b>Penjelasan:</b><br>
+Gambar ini merupakan daftar produk yang telah tersimpan di dalam database dalam bentuk tabel. Tabel berisi nomor, nama produk, harga, stok, dan aksi edit. Halaman ini juga menyediakan tombol Tambah Produk untuk menambahkan produk baru serta fitur Edit untuk mengubah data produk yang sudah ada.
 </p>
 
 <br>
@@ -56,6 +57,7 @@ UNIVERSITAS PANCASILA<br>
 </table>
 
 <p align="justify";><b>Penjelasan:</b><br>
+Gambar ini merupakan halaman tambah produk yang digunakan untuk memasukkan data produk baru ke dalam sistem. Pengguna dapat mengisi nama produk, harga produk, dan stok produk, kemudian menekan tombol Simpan Produk untuk menyimpan data ke database.
 </p>
 
 <br>
@@ -70,6 +72,7 @@ UNIVERSITAS PANCASILA<br>
 </table>
 
 <p align="justify";><b>Penjelasan:</b><br>
+Gambar ini merupakan halaman edit produk yang berfungsi untuk mengubah data produk yang sudah tersimpan. Formulir menampilkan data sebelumnya, seperti nama, harga, dan stok produk, sehingga pengguna dapat memperbarui informasi yang diperlukan dengan menekan tombol Simpan Perubahan.
 </p>
 
 <br>
@@ -84,4 +87,5 @@ UNIVERSITAS PANCASILA<br>
 </table>
 
 <p align="justify";><b>Penjelasan:</b><br>
+Gambar ini merupakan database akademik yang memiliki tabel produk yang digunakan untuk menyimpan data barang atau produk. Tabel ini terdiri dari empat kolom, yaitu id sebagai identitas unik produk, nama_produk sebagai nama barang, harga sebagai harga produk, dan stok sebagai jumlah persediaan barang. Pada tabel tersebut terdapat 4 data produk, yaitu Keyboard Mechanical, Mouse Wireless, Headset Gaming, dan Monitor.
 </p>
